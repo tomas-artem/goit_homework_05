@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+    width: 500px;
+}
+/* My styles */
+  @font-face {
+    font-family: HelveticaNeue; /* Гарнитура шрифта */
+    src: url(../fonts/HelveticaNeue.ttf); /* Путь к файлу со шрифтом */
+   }
+.clearfix:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+body {
+    font-family: HelveticaNeue;
+}
+.container {
+    margin: 0 auto;
+    height: 1064px;
+    width: 1215px;
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+nav {
+    background: #074a87;
+    height: 36px;
+}
+.top-navigation {
+    float: right;
+    list-style: none;
+    padding-right: 20px;
+}
+.menu-item {
+    display: inline-block;
+    font-size: 14px;
+    font-family: HelveticaNeue;
+    line-height: 36px;
+    color: #60b5ed;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.menu-item a {
+    text-decoration: none;
+    color: #60b5ed;
+}
+.menu-item:hover {
+    background-color: #4eabda;
+    color: white;
+}
+.item-offer {
+    display: inline-block;
+    font-size: 14px;
+    font-family: HelveticaNeue;
+    line-height: 36px;
+    color: #60b5ed;
+    padding-left: 45px;
+    padding-right: 12px;
+    border-left: 1px solid #60b5ed;
+    background-image: url(../img/icon-flag.png);
+    background-position-y: center;
+    background-position-x: 10px;
+    background-repeat: no-repeat;
+}
+.item-offer:hover {
+    background-color: blue;
+}
+.item-enter {
+    display: inline-block;
+    font-size: 14px;
+    font-family: HelveticaNeue;
+    line-height: 36px;
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    background: linear-gradient(#4eacda, #2e7ac4);
+}
+.item-enter a {
+    color: white;
+}
+.item-enter span:hover {
+    color: #ccc;
+}
+.before {
+  display: inline-block;
+  height: 97%;
+  vertical-align: middle;
+}
+.account {
+    display: inline-block;
+    vertical-align: middle;
+    width: 560px;
+    height: 610px;
+    margin: 0 auto;
+    background-color: rgba(12,12,12,0.6);
+}
+.form-title {
+    border-bottom: 2px solid #cbcec5;
+    height: 64px;
+}
+.account h3 {
+    font-family: HelveticaNeue;
+    font-size: 24px;
+    line-height: 64px;
+    color: white;
+    text-align: center;
+}
+.form-line {
+    margin-top: 40px;
+    text-align: center;
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    color: #999999;
+    text-transform: uppercase;
+    background-image: url(../img/form-line.png);
+    background-position-x: center;
+    background-position-y: 3px;
+    background-repeat: no-repeat;    
+}
+.input-container {
+    margin-top: 18px;
+    text-align: center;
+    color: #fffbfb;
+}
+.standard-input {
+    height: 36px;
+    line-height: 36px;
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    color: #fffbfb;
+    padding-left: 18px;
+    border: 1px solid #484948;
+    background: linear-gradient(#0f0f0e, #111111);
+}
+.standard-input:focus {
+    background: #1b5288;
+    border: 1px solid #689bcc;
+    box-shadow: 0 0 20px #1b5288;
+    color: #100f0e;
+}
+.button-create {
+    background: linear-gradient(#4eabda, #2e7ac4);
+    color: #fff;
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    width: 150px;
+    height: 36px;
+    border-radius: 3px;
+}
+.button-create:hover {
+    background: linear-gradient(#2e7ac4, #4eabda);
+}
+.send-agree-container {
+    margin-top: 18px;
+    text-align: left;
+    padding-left: 135px;
+    color: #cccccc;
+    font-family: HelveticaNeue;
+    font-size: 12px;
+}
+.send-agree {
+    margin-right: 4px;
+}
+.checkbox-agree {
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    }
+.agreement {
+    padding-left: 120px;
+    padding-right: 120px;
+    font-family: HelveticaNeue;
+    font-size: 11px;
+    line-height: 15px;
+    color: #cccccc;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>GoIT. HTML. Homework #5. Form</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <nav class="clearfix">
+            <ul class="top-navigation">
+                <a href="index.html" title="Meu YouBike">
+                    <li class="menu-item">
+                        <span>Meu YouBike</span>
+                    </li>
+                </a>
+                <a href="index.html" title="Vender">
+                    <li class="menu-item">
+                        <span>Vender</span>
+                    </li>
+                </a>
+                <a href="index.html" title="Forum">
+                    <li class="menu-item">
+                        <span>Forum</span>
+                    </li>
+                </a>
+                <a href="index.html" title="Contato">
+                    <li class="menu-item">
+                        <span>Contato</span>
+                    </li>
+                </a>
+                <a href="index.html" title="Ajuda">
+                    <li class="menu-item">
+                        <span>Ajuda</span>
+                    </li>
+                </a>
+                
+    
+                <a href="index.html" title="Forum">
+                    <li class="item-offer">Minhas Ofertas</li>
+                </a>
+                <li class="item-enter">Ola! 
+                    <a href="index.html" title="Entrar"><span>Entrar</span></a> 
+                    ou 
+                    <a href="#main-form" title="Cadastre-se"><span>Cadastre-se</span></a>
+                </li>
+            </ul>
+        </nav>
+        
+        <span class="before"></span>
+        <a name="main-form"></a>
+        <form class="account" action="#" method="POST">
+            <div class="form-title">
+                <h3>Cadastre-se</h3>
+            </div>
+            <div class="form-line">
+                ou
+            </div>
+            
+            <div class="input-container">
+                <input type="text" name="first-name" placeholder="First Name" size="37" class="standard-input" required>
+            </div>
+            <div class="input-container">
+                <input type="text" name="last-name" placeholder="Last Name" size="37" class="standard-input" required>
+            </div>
+            <div class="input-container">
+                <input type="email" name="email" placeholder="Email Address" size="37" class="standard-input" required>
+            </div>
+            <div class="input-container">
+                <input type="password" name="password" placeholder="Choose Password" size="37" class="standard-input" required>
+            </div>
+            <div class="input-container">
+                <input type="password" name="password-confirm" placeholder="Password Confirm" size="37" class="standard-input" required>
+            </div>
+            <div class="send-agree-container">
+                <input type="checkbox" class="send-agree" id="send-agree">
+                <label for="send-agree">
+                    <span class="checkbox-agree">Send me Youbike updates and tips</span>
+                </label>
+            </div>
+            <div class="input-container">
+                <button type="submit" class="button-create" title="Create my Account">Create my Account</button>
+            </div>
+            <div class="input-container">
+                <p class="agreement">By clicking the button above, you agree to the Terms of Service
+Xiew our Privacy Policy.</p>
+            </div>
+        </form>
+            
+      
+    </div>
+</body>
+
+</html>
