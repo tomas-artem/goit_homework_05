@@ -63,21 +63,25 @@ table {
 }
 body {
     font-family: HelveticaNeue;
-}
-.container {
-    margin: 0 auto;
-    height: 1064px;
-    width: 1215px;
     background-image: url(../img/bg.png);
+    background-position: center;
     background-repeat: no-repeat;
     text-align: center;
+    height: 1064px;
+    min-width: 840px;
 }
+/*
+.container {
+    margin: 0 auto;
+    width: 1215px;
+}
+*/
 nav {
     background: #074a87;
     height: 36px;
 }
 .top-navigation {
-    float: right;
+    /* float: right; */
     list-style: none;
     padding-right: 20px;
 }
@@ -171,8 +175,49 @@ nav {
     color: white;
     text-align: center;
 }
+.facebook-input {
+    margin-top: 36px;
+    text-align: center;
+    color: #fffbfb;
+}
+.facebook-button {
+    background: linear-gradient(#3e5694, #2b4276);
+    color: #fff;
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    width: 275px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 6px;
+    border: 0px solid #484948;
+    text-align: left;
+}
+.facebook-button:hover {
+    background: linear-gradient(#2b4276, #3e5694);
+}
+.facebook-logo {
+    padding-left: 16px;
+    padding-right: 12px;
+    border-right: 2px solid #203b70;
+    float: left;
+}
+.facebook-login {
+    padding-left: 32px;
+    padding-right: 22px;
+    border-left: 2px solid #4d68ab;
+    float: left;
+    font-family: HelveticaNeue;
+}
+.text-bold {
+    font-weight: bold;
+}
+.facebook-button a{
+    color: white;
+    text-decoration: none;
+}
+
 .form-line {
-    margin-top: 40px;
+    margin-top: 36px;
     text-align: center;
     font-family: HelveticaNeue;
     font-size: 14px;
@@ -189,6 +234,7 @@ nav {
 }
 .standard-input {
     height: 36px;
+    width: 257px;
     line-height: 36px;
     font-family: HelveticaNeue;
     font-size: 14px;
