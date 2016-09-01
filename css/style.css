@@ -1,4 +1,4 @@
-* {
+﻿* {
     margin: 0;
     padding: 0;
 }
@@ -66,6 +66,7 @@ body {
     background-image: url(../img/bg.png);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
     height: 1064px;
     min-width: 840px;
